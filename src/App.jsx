@@ -10,6 +10,7 @@ function App() {
     test.initialize();
     test.animate();
 
+    // Here you can add more Geometries.
     const boxGeometry = new THREE.BoxGeometry(16, 16, 16);
     const boxMaterial = new THREE.MeshNormalMaterial();
     const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
